@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script rel="javascript/text" href="./main.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <!--Top Menu-->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">News 24X7</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Latest</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Trending</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Popular</a>
+        </ul>
+    </div>
+</nav>
+<!--Jumbotron-->
+<div class="jumbotron">
+    <center><h1>Quote of the Day</h1></center>
+    <center><p id="italic">I think the idea of creating a television news source that is not beholden to corporate interests is nirvana.
+
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-Phil Donahue</p></center>
+        <center><button class="btn btn-danger" onclick="window.location.href='https://github.com/SanshruthR';">Subscribe</button></center>
+
+<hr class="my-4">
+<h1 id="headlines">Featured Games</h1>
+<!--Adding cards-->
+<div class="row">
+    <div class="col-md-4 col-sm-6 col-s-12">
+        <div class="card">
+            <img class="card-img-top" src="https://www.nytimes.com/games-assets/v2/assets/expansion-games/vertex-card-icon.svg" height="100px">
+            <div class="card-body">
+                <h5 class="card-title" id="title"><b>Tiles</b></h5>
+                <p class="card-text" id="desc">Match tiles to keep your chain going.</p>
+                <center><button class="btn btn-warning text-white " onclick="window.location.href='https://www.nytimes.com/puzzles/tiles';">Play now</button></center>
+            </div>
+        </div>
+    </div>
+    <!--adding new card-->
+    <div class="col-md-4 col-sm-6 col-s-12">
+        <div class="card">
+            <img class="card-img-top" src="https://www.nytimes.com/games-assets/v2/assets/expansion-games/sudoku-card-icon.svg" height="100px">
+            <div class="card-body">
+                <h5 class="card-title" id="title"><b>Sudoku</b></h5>
+                <p class="card-text" id="desc">Try this numbers game, minus the math.</p>
+                <center><button class="btn btn-warning text-white "onclick="window.location.href='https://www.nytimes.com/puzzles/sudoku';">Play now</button></center>
+            </div>
+        </div>
+    </div>
+    <!--adding new card-->
+    <div class="col-md-4 col-sm-6 col-s-12">
+        <div class="card">
+            <img class="card-img-top" src="https://www.nytimes.com/games-assets/v2/assets/expansion-games/tiles-card-icon.svg" height="100px">
+            <div class="card-body">
+                <h5 class="card-title" id="title"><b>Vertex</b></h5>
+                <p class="card-text" id="desc">Connect the dots to reveal the hidden picture.</p>
+                <center><button class="btn btn-warning text-white " onclick="window.location.href='https://www.nytimes.com/puzzles/vertex';">Play now</button></center>
+            </div>
+        </div>
+    </div>
+
+</div>
+<hr class="my-4">
+    <script src="main.js"></script>
+    <div id="output"></div>
+       <center><p id="copyright"></p></center>
+
+    
+    </body>
+</html>

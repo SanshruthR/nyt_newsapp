@@ -1,0 +1,13 @@
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+  }
+  .italic{ font-style: italic;}
+  #headlines{text-align: center;}
+  .card-title{ text-align: center;}
+
+#desc{text-align: center;}
+
+
